@@ -30,7 +30,7 @@ let gameRunning = true;
 let playerPosition = { x: 0, y: 200 };
 let aimenPosition = { x: 575, y: 50 };
 let aimenSpeed = 1;
-let TENTIMESFASTERTHANFROGGER = 20;
+let TENTIMESFASTERTHANFROGGER = 10;
 let aimenIsShooting = false;
 let carData = [
   { x: 50, y: Math.random() * (-2000 + 150) - 150 },
